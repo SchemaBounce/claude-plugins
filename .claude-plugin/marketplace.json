@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "schemabounce",
-      "source": { "source": "github", "repo": "SchemaBounce/schemabounce-agent-kit", "ref": "schemabounce--v0.4.0" },
+      "source": { "source": "github", "repo": "SchemaBounce/schemabounce-agent-kit", "ref": "schemabounce--v0.4.1" },
       "description": "Find, cite and propose SchemaBounce decisions from the files you are changing.",
       "category": "development",
       "tags": ["schemabounce", "decisions", "governance", "mcp"]

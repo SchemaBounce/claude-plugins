@@ -43,6 +43,18 @@ Check this into the repository's `.claude/settings.json`:
 }
 ```
 
+The checked-in settings register the marketplace for everyone who trusts the
+folder. Because the entry points at the plugin's own repository, each
+contributor installs it once per machine, which Claude Code also prompts for:
+
+```
+claude plugin install schemabounce@schemabounce --scope project
+```
+
+Then sign in to the SchemaBounce MCP once with `/mcp`. Hosted and cloud
+sessions never load a repository's plugins; SchemaBounce's hosted Code Mode
+loads the kit from a platform pin instead.
+
 ## Releases
 
 A plugin release is a version bump in its `plugin.json`, an immutable git tag

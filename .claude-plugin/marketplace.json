@@ -1,14 +1,27 @@
 {
   "name": "schemabounce",
   "description": "SchemaBounce's Claude Code plugins: decision records just in time from the hosted SchemaBounce MCP, and whatever we add next.",
-  "owner": { "name": "SchemaBounce", "email": "support@schemabounce.com", "url": "https://schemabounce.com" },
+  "owner": {
+    "name": "SchemaBounce",
+    "email": "support@schemabounce.com",
+    "url": "https://schemabounce.com"
+  },
   "plugins": [
     {
       "name": "schemabounce",
-      "source": { "source": "github", "repo": "SchemaBounce/schemabounce-agent-kit", "ref": "schemabounce--v0.4.1" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SchemaBounce/schemabounce-agent-kit.git",
+        "ref": "schemabounce--v0.4.1"
+      },
       "description": "Find, cite and propose SchemaBounce decisions from the files you are changing.",
       "category": "development",
-      "tags": ["schemabounce", "decisions", "governance", "mcp"]
+      "tags": [
+        "schemabounce",
+        "decisions",
+        "governance",
+        "mcp"
+      ]
     }
   ]
 }

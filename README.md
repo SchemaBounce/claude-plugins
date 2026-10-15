@@ -10,9 +10,10 @@ name and receive releases with `claude plugin update`.
 
 Or both in one command from a shell: `claude plugin install schemabounce --marketplace SchemaBounce/claude-plugins`.
 
-On a machine without a GitHub SSH key, set `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1`
-before installing or updating; in-session installs and `claude plugin update`
-do not fall back to HTTPS on their own.
+No GitHub SSH key is needed: the entry points at the plugin repository by
+HTTPS URL, so installs and updates clone over HTTPS. On a machine without an
+SSH key, add the marketplace by URL as well:
+`claude plugin marketplace add https://github.com/SchemaBounce/claude-plugins.git`.
 
 ## Plugins
 

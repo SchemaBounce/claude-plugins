@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/SchemaBounce/schemabounce-agent-kit.git",
-        "ref": "schemabounce--v0.4.1"
+        "ref": "schemabounce--v0.4.2"
       },
       "description": "Find, cite and propose SchemaBounce decisions from the files you are changing.",
       "category": "development",
